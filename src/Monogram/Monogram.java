@@ -139,7 +139,7 @@ public class Monogram extends javax.swing.JFrame {
         middle = textMiddle.getText().toLowerCase();
         last = textLast.getText().toUpperCase();
         
-        //Takes the first character of each String
+        //Returns the first character of each String
         char firstLetter, secondLetter, thirdLetter;
         firstLetter = first.charAt(0);
         secondLetter = middle.charAt(0);
