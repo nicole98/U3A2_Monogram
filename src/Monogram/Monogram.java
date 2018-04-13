@@ -136,8 +136,8 @@ public class Monogram extends javax.swing.JFrame {
     private void buttonCreateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonCreateActionPerformed
         String first, middle, last;
         first = textFirst.getText().toLowerCase();
-        middle = textMiddle.getText().toUpperCase();
-        last = textLast.getText().toLowerCase();
+        middle = textMiddle.getText().toLowerCase();
+        last = textLast.getText().toUpperCase();
         
         //Takes the first character of each String
         char firstLetter, secondLetter, thirdLetter;
@@ -145,7 +145,7 @@ public class Monogram extends javax.swing.JFrame {
         secondLetter = middle.charAt(0);
         thirdLetter = last.charAt(0);
      
-        labelOutput.setText("Your monogram is: " + firstLetter + secondLetter + thirdLetter);
+        labelOutput.setText("Your monogram is: " + firstLetter + thirdLetter + secondLetter);
     }//GEN-LAST:event_buttonCreateActionPerformed
 
     /**
